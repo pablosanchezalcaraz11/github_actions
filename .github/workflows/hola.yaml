@@ -2,7 +2,7 @@ on:
   workflow_dispatch:
 
 jobs :
-  say hello:
+  say_hello:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello there!"
